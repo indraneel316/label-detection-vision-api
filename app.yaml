@@ -1,0 +1,7 @@
+runtime: nodejs20
+handlers:
+  - url: /.*
+    script: auto
+service: default  # Define a unique service name
+
+
